@@ -71,7 +71,7 @@ public class Department {
 		sb.append(payDay + "\n");
 		sb.append("Funcionários: \n");
 		for (Employee c : employee) {
-			sb.append(employee + "\n");
+			sb.append(c.getName() + "\n");
 		}
 		sb.append("Para dúvidas favor entrar em contato: ");
 		sb.append(address);
