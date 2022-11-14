@@ -31,7 +31,7 @@ public class Address {
 	
 	@Override
 	public String toString() {
-		return "Para dúvidas favor entrar em contato: " + email;
+		return  email;
 	}
 	
 	

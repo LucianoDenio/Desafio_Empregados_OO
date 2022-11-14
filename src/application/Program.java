@@ -33,7 +33,8 @@ public class Program {
 			System.out.print("Nome: ");
 			sc.nextLine();
 			String name = sc.nextLine();
-			Double salary = sc.nextDouble();
+			System.out.print("Salario: ");
+			double salary = sc.nextDouble();
 			
 			Employee employee = new Employee(name, salary);
 			department.addEmployee(employee);

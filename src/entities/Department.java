@@ -65,7 +65,7 @@ public class Department {
 	public String toString() {
 		StringBuilder sb = new StringBuilder(); 
 		sb.append("FOLHA DE PAGAMENTO: \n");
-		sb.append("Departamento Vendas = R$");
+		sb.append("Departamento Vendas = R$ ");
 		sb.append(String.format("%.2f%n", payrool()));
 		sb.append("Pagamento realizado no dia ");
 		sb.append(payDay + "\n");
